@@ -18,6 +18,8 @@ data_aggregation.ipynb\
 eda.ipynb\
 model_selection.ipynb
 
+Running them in order will allow you to achieve the same model and results in the files
+
 ## Data
 
 The data files are quite large and are not located in the repository. The following files are included in the data folder:
