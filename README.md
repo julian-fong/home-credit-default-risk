@@ -18,11 +18,11 @@ data_aggregation.ipynb\
 eda.ipynb\
 model_selection.ipynb
 
-Running them in order will allow you to achieve the same model and results in the files
+Running them in order will allow you to compile the augmented dataset along with the complete model training process
 
 ## Data
 
-The data files are quite large and are not located in the repository. The following files are included in the data folder:
+The data files are quite large and are not located in the repository. The following files are included in the data folder that are used to run the notebooks:
 
 application_test.csv\
 application_train.csv\
