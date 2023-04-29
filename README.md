@@ -1,46 +1,35 @@
-# home-credit-default-risk
+# Home Credit Default Risk
 
-```
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
+Home Credit Default Risk is a dataset competition hosted by [Kaggle](https://www.kaggle.com/competitions/home-credit-default-risk/overview). 
 
-## General info
-This project is simple Lorem ipsum dolor generator.
+## Installation
 
-## Technologies
-Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the dependencies.
 
-## Setup
-To run this project, install it locally using npm:
-
+```bash
+pip install requirements.txt
 ```
 
-$ cd ../lorem
-$ npm install
-$ npm start
+## Notebooks
 
-```
-# Project Title
+There are three main notebooks in total:
 
-## Introduction
+data_aggregation.ipynb\
+eda.ipynb\
+model_selection.ipynb
 
-Provide an introduction to your project, including its purpose, scope, and any key features or benefits. This section should give readers a high-level overview of what your project is all about and why it matters.
+## Data
 
-## Table of Contents
+The data files are quite large and are not located in the repository. The following files are included in the data folder:
 
-Include a table of contents to help readers navigate your readme file. This can be done using a list of links to each major section of the document.
+application_test.csv\
+application_train.csv\
+bureau.csv\
+bureau_balance.csv\
+credit_card_balance.csv\
+installment_payments.csv\
+previous_application.csv
 
-## General Info
+## Report
 
-Provide more detailed information about your project, including its goals, requirements, and any constraints or limitations. This section should provide readers with a deeper understanding of what your project is designed to achieve and how it works.
-
-## Technologies
-
-List the technologies and tools used in your project, including programming languages, libraries, frameworks, and any other software that is important to your project's success. This section should give readers an idea of the technical skills required to contribute to or work with your project.
-
-```
+A final [report](https://github.com/julian-fong/home-credit-default-risk/blob/main/Home_Credit_Default_Risk.pdf) detailing the entire workflow for this project can be found in the repository
